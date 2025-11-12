@@ -1,0 +1,51 @@
+body {
+  background: linear-gradient(135deg, #ffd1dc, #ffb6c1);
+  min-height: 100vh;
+  font-family: 'Poppins', sans-serif;
+}
+
+.bg-pink {
+  background: linear-gradient(135deg, #ffd6e0, #ffb6c1);
+}
+
+.bg-pink-dark {
+  background-color: #ff66b2 !important;
+}
+
+.bg-light-pink {
+  background-color: #ffe6f2 !important;
+}
+
+.pink-card {
+  border-radius: 1.5rem !important;
+  background-color: #fff0f5;
+}
+
+button, .btn {
+  background-color: #ff69b4;
+  border-color: #ff69b4;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover, .btn:hover {
+  background-color: #ff1493;
+  border-color: #ff1493;
+  transform: scale(1.05);
+}
+
+.border-pink {
+  border-color: #ffb6c1 !important;
+}
+
+.calendar-pink {
+  border: 1px solid #f5a3b8;
+  border-radius: 10px;
+}
+
+.task-item {
+  transition: transform 0.2s ease;
+}
+
+.task-item:hover {
+  transform: scale(1.02);
+}

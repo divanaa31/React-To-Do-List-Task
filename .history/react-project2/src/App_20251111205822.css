@@ -1,0 +1,106 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #ffe4ec, #fff1f9);
+  transition: all 0.5s ease;
+}
+
+.main-container {
+  background: rgba(255, 255, 255, 0.95);
+  border: 2px solid #ffc2d1;
+}
+
+.app-title {
+  font-weight: 700;
+  color: #d63384;
+}
+
+.time-display {
+  color: #d63384;
+  font-weight: 600;
+  background: rgba(255, 240, 247, 0.8);
+  border-radius: 12px;
+  display: inline-block;
+  padding: 10px 20px;
+  box-shadow: 0 2px 6px rgba(255, 105, 180, 0.3);
+}
+
+.btn-gradient {
+  background: linear-gradient(45deg, #ff66a3, #ff99cc);
+  border: none;
+  color: white;
+  font-weight: 600;
+}
+
+.btn-gradient:hover {
+  background: linear-gradient(45deg, #ff3385, #ff66b2);
+}
+
+.list-group-item {
+  background: #fff;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.list-group-item:hover {
+  transform: scale(1.02);
+  background-color: #fff0f6;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.6;
+  background-color: #ffeaf5 !important;
+}
+
+.highlight-date {
+  background-color: #ffb6c1 !important;
+  border-radius: 50%;
+}
+
+.calendar-card, .todo-card {
+  background-color: #fff8fb;
+  border: 1px solid #ffc2d1;
+}
+
+.task-text {
+  cursor: pointer;
+  color: #d63384;
+  font-weight: 500;
+}
+
+.toggle-btn {
+  border-radius: 20px;
+}
+
+/* 🌙 Dark Mode */
+.dark-mode {
+  background: linear-gradient(135deg, #2b002e, #4b1248);
+  color: white;
+}
+
+.dark-mode .main-container {
+  background: rgba(45, 0, 40, 0.9);
+  border-color: #b30077;
+}
+
+.dark-mode .calendar-card, 
+.dark-mode .todo-card {
+  background-color: #3b003a;
+  border: 1px solid #b30077;
+}
+
+.dark-mode .task-text {
+  color: #ffcce0;
+}
+
+.dark-mode .btn-gradient {
+  background: linear-gradient(45deg, #d63384, #ff99cc);
+}
+
+.dark-mode .time-display {
+  background: rgba(255, 204, 229, 0.2);
+  color: #ffd6eb;
+}

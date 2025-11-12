@@ -1,0 +1,44 @@
+body {
+  background: #ffe6f2;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.text-pink {
+  color: #ff69b4;
+}
+
+.btn-pink {
+  background-color: #ff69b4;
+  border: none;
+  color: white;
+  font-weight: bold;
+}
+
+.btn-pink:hover {
+  background-color: #ff85c1;
+}
+
+.list-group-item {
+  border-radius: 10px;
+  margin-bottom: 8px;
+  transition: all 0.3s ease;
+}
+
+.list-group-item:hover {
+  background-color: #ffeaf5;
+  transform: scale(1.02);
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+.highlight-date {
+  background-color: #ffb6c1 !important;
+  border-radius: 50%;
+}
+
+.task-text {
+  cursor: pointer;
+}
